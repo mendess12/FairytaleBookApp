@@ -3,6 +3,7 @@
     <style name="Base.Theme.MasalKitabim" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/background</item>
     </style>
 
     <style name="Theme.MasalKitabim" parent="Base.Theme.MasalKitabim" />
