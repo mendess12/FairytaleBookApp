@@ -13,7 +13,8 @@
 - Fragmentlar arası geçiş ve veri göndermek için Jetpack Navigation component,
 - Model olarakta MVVM
 - Asenkron işlemler için Coroutine
-- Bağımlılık yönetimi için Dagger - Hilt kullandım.
+- Bağımlılık yönetimi için Dagger - Hilt
+- Veri aktarımı için Parcelable kullandım.
 <hr>
 
 ### 3. Parti kütüphaneler
@@ -25,6 +26,7 @@
       id 'androidx.navigation.safeargs.kotlin'
       id 'dagger.hilt.android.plugin'
       id 'kotlin-kapt'
+      id 'kotlin-parcelize'
   
   - Dependencies
   
@@ -79,8 +81,9 @@
 - [Firebase Storage](https://firebase.google.com/docs/storage/android/start?authuser=1)
 - [ViewPager2](https://tutorialwing.com/android-viewpager2-using-kotlin-with-example/)
 - [Coroutines](https://developer.android.com/kotlin/coroutines)
-- [Dgger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
 - [LiveData Overview](https://developer.android.com/topic/libraries/architecture/livedata)
+- [Parcelable](https://developer.android.com/kotlin/parcelize)
 - [Picasso](https://square.github.io/picasso/)
 - [Fragment & Fragment View lifecycle](https://developer.android.com/guide/fragments/lifecycle)
 - [Activity lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle)
