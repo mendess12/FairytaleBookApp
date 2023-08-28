@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.os.Handler
 import com.yusufmendes.masalkitabim.MainActivity
 import com.yusufmendes.masalkitabim.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
