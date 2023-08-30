@@ -12,6 +12,7 @@
     <dimen name="margin_250dp">250dp</dimen>
 
     <!-- text size -->
+    <dimen name="text_size_16sp">16sp</dimen>
     <dimen name="text_size_18sp">18sp</dimen>
     <dimen name="text_size_20sp">20sp</dimen>
     <dimen name="text_size_22sp">22sp</dimen>
@@ -20,9 +21,12 @@
     <!-- height size -->
     <dimen name="height_1dp">1dp</dimen>
     <dimen name="height_32dp">32dp</dimen>
+    <dimen name="height_200dp">200dp</dimen>
+    <dimen name="height_250dp">250dp</dimen>
 
     <!-- width size -->
     <dimen name="width_32dp">32dp</dimen>
+    <dimen name="width_150dp">150dp</dimen>
 
     <!-- padding size -->
     <dimen name="padding_5dp">5dp</dimen>

@@ -2,7 +2,7 @@
 <resources>
 
     <style name="head" parent="TextAppearance.AppCompat">
-        <item name="android:textSize">@dimen/text_size_26sp</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
         <item name="android:padding">@dimen/padding_5dp</item>
         <item name="android:textColor">@color/head_color</item>
         <item name="android:fontFamily">@font/inter_medium</item>

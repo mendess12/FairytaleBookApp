@@ -3,4 +3,5 @@
     <string name="name">Masal adı</string>
     <string name="fairytale">Masal içeriği</string>
     <string name="fairytale_continue">Devamını oku</string>
+    <string name="search">Ara...</string>
 </resources>

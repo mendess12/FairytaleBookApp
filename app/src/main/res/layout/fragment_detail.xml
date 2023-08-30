@@ -18,7 +18,7 @@
     <ImageView
         android:id="@+id/detail_screen_Iv"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/margin_200dp"
+        android:layout_height="@dimen/height_250dp"
         android:layout_margin="@dimen/margin_16dp"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintBottom_toTopOf="@+id/detail_screen_scroll_view"
@@ -52,7 +52,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-5347985551957293/2017503379"
+        app:adUnitId="ca-app-pub-5347985551957293/8158984284"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

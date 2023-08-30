@@ -5,4 +5,5 @@
     <color name="head_color">#E0D4FC</color>
     <color name="icon_color">#E0D4FC</color>
     <color name="background">#6750A2</color>
+    <color name="item_stroke_color">#E0D4FC</color>
 </resources>

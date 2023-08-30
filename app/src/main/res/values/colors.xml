@@ -7,4 +7,5 @@
     <color name="head_color">#3F2E6A</color>
     <color name="icon_color">#6750A2</color>
     <color name="background">#E0D4FC</color>
+    <color name="item_stroke_color">#6750A2</color>
 </resources>
