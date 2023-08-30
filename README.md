@@ -96,4 +96,5 @@
 
   ![list](https://github.com/mendess12/MasalKitabim/assets/76566952/2f161828-bbf5-4b1c-a538-0961a5189a55)  ![detail](https://github.com/mendess12/MasalKitabim/assets/76566952/8f13d3c7-76c9-4fea-ac2a-2bd45445e0a2)
 
-  [untitled.webm](https://github.com/mendess12/MasalKitabim/assets/76566952/fd895d81-ee69-445f-be38-83b3d01c2d93)
+  [untitled.webm](https://github.com/mendess12/FairytaleBookApp/assets/76566952/4f5fad38-a48f-4426-bc04-18824c96107a)
+
