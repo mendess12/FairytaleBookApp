@@ -58,9 +58,6 @@
 
     //picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
-
-    //view pager2
-    implementation("androidx.viewpager2:viewpager2:1.0.0")
     
 - build.gradle(:project)
 
@@ -79,9 +76,9 @@
 ### Kaynaklar
 - [Firebase Firestore](https://firebase.google.com/docs/firestore/query-data/get-data?authuser=1)
 - [Firebase Storage](https://firebase.google.com/docs/storage/android/start?authuser=1)
-- [ViewPager2](https://tutorialwing.com/android-viewpager2-using-kotlin-with-example/)
 - [Coroutines](https://developer.android.com/kotlin/coroutines)
 - [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+- [RecyclerView](https://www.tutorialkart.com/kotlin-android/kotlin-android-recyclerview/#gsc.tab=0)
 - [LiveData Overview](https://developer.android.com/topic/libraries/architecture/livedata)
 - [Parcelable](https://developer.android.com/kotlin/parcelize)
 - [Picasso](https://square.github.io/picasso/)
@@ -93,8 +90,8 @@
 - [Learn Jetpack Navigation - Codelab](https://developer.android.com/codelabs/android-navigation#0)
 
   ### UI Tasarımları
+  
+![liste](https://github.com/mendess12/FairytaleBookApp/assets/76566952/fba7f75f-11fc-450a-b3af-b7b97f847d4a) ![arama](https://github.com/mendess12/FairytaleBookApp/assets/76566952/8075f6d4-5201-4b2f-a1f9-af40776570c1)
+ ![detail](https://github.com/mendess12/MasalKitabim/assets/76566952/8f13d3c7-76c9-4fea-ac2a-2bd45445e0a2)
 
-  ![list](https://github.com/mendess12/MasalKitabim/assets/76566952/2f161828-bbf5-4b1c-a538-0961a5189a55)  ![detail](https://github.com/mendess12/MasalKitabim/assets/76566952/8f13d3c7-76c9-4fea-ac2a-2bd45445e0a2)
-
-  [untitled.webm](https://github.com/mendess12/FairytaleBookApp/assets/76566952/4f5fad38-a48f-4426-bc04-18824c96107a)
 
