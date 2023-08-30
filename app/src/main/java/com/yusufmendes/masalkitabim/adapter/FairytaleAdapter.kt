@@ -90,45 +90,4 @@ class FairytaleAdapter(
         notifyDataSetChanged()
     }
 
-    /*
-    override fun getFilter(): Filter {
-        return object : Filter() {
-            override fun publishResults(constraint: CharSequence, results: FilterResults) {
-                filterList = results.values as MutableList<CryptoListItem>
-                notifyDataSetChanged()
-            }
-
-            override fun performFiltering(constraint: CharSequence): FilterResults {
-                val filteredResults: List<CryptoListItem?> = if (constraint.isEmpty()) {
-                    cryptoData
-                } else {
-                    getFilteredResults(constraint.toString().lowercase(Locale.getDefault()))
-                }
-                val results = FilterResults()
-                results.values = filteredResults
-                return results
-            }
-        }
-    }
-
-    //filtre sonuçları
-    private fun getFilteredResults(constraint: String?): List<CryptoListItem> {
-        val results: MutableList<CryptoListItem> = ArrayList()
-        for (item in cryptoData) {
-            if (item.name.lowercase().contains(constraint!!)) {
-                results.add(item)
-            }
-        }
-        return results
-    }
-
-    fun updateData(crypto: List<CryptoListItem>) {
-        filterList.clear()
-        filterList.addAll(crypto)
-        cryptoData.clear()
-        cryptoData.addAll(crypto)
-        notifyDataSetChanged()
-    }
-    *
-    * */
 }
