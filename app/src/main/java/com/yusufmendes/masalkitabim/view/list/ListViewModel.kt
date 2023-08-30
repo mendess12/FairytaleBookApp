@@ -11,13 +11,10 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class ListViewModel @Inject constructor(private val fairytaleRepository: FairytaleRepository): ViewModel() {
+class ListViewModel @Inject constructor(private val fairytaleRepository: FairytaleRepository) :
+    ViewModel() {
 
     var listLiveData: MutableLiveData<List<Fairytale>?> = MutableLiveData()
-
-    init {
-        getDataFromFirebase()
-    }
 
     fun getDataFromFirebase() {
         viewModelScope.launch {
