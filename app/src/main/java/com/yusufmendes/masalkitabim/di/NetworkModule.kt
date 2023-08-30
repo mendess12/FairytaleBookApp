@@ -1,4 +1,4 @@
-package com.yusufmendes.masalkitabim.model
+package com.yusufmendes.masalkitabim.di
 
 import com.google.firebase.firestore.FirebaseFirestore
 import dagger.Module
