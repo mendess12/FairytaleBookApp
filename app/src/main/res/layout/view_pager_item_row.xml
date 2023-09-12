@@ -6,28 +6,29 @@
     android:layout_margin="@dimen/margin_10dp"
     android:background="@drawable/item_background">
 
-            <ImageView
-                android:id="@+id/view_pager_Iv"
-                android:layout_width="@dimen/width_150dp"
-                android:layout_height="@dimen/height_200dp"
-                android:layout_margin="@dimen/margin_10dp"
-                android:src="@drawable/ic_launcher_background"
-                app:layout_constraintBottom_toTopOf="@+id/view_pager_name_Tv"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/view_pager_Iv"
+        android:layout_width="@dimen/width_150dp"
+        android:layout_height="@dimen/height_150dp"
+        android:layout_margin="@dimen/margin_10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintBottom_toTopOf="@+id/view_pager_name_Tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/view_pager_name_Tv"
-                style="@style/head"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_10dp"
-                android:layout_marginBottom="@dimen/margin_10dp"
-                android:text="@string/name"
-                android:gravity="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view_pager_Iv" />
+    <TextView
+        android:id="@+id/view_pager_name_Tv"
+        style="@style/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:gravity="center"
+        android:text="@string/name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_pager_Iv" />
 </androidx.constraintlayout.widget.ConstraintLayout>
