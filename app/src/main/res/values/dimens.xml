@@ -3,6 +3,7 @@
 
     <!-- margin size -->
     <dimen name="margin_0dp">0dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
     <dimen name="margin_8dp">8dp</dimen>
     <dimen name="margin_10dp">10dp</dimen>
     <dimen name="margin_16dp">16dp</dimen>
@@ -20,12 +21,16 @@
 
     <!-- height size -->
     <dimen name="height_1dp">1dp</dimen>
+    <dimen name="height_24dp">24dp</dimen>
     <dimen name="height_32dp">32dp</dimen>
+    <dimen name="height_40dp">40dp</dimen>
     <dimen name="height_150dp">150dp</dimen>
     <dimen name="height_250dp">250dp</dimen>
 
     <!-- width size -->
+    <dimen name="width_24dp">24dp</dimen>
     <dimen name="width_32dp">32dp</dimen>
+    <dimen name="width_40dp">40dp</dimen>
     <dimen name="width_150dp">150dp</dimen>
 
     <!-- padding size -->

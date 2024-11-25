@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_250dp"
         android:layout_margin="@dimen/margin_16dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintBottom_toTopOf="@+id/detail_screen_scroll_view"
         app:layout_constraintEnd_toEndOf="parent"

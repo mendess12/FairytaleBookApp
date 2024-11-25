@@ -8,10 +8,10 @@
 
     <ImageView
         android:id="@+id/view_pager_Iv"
-        android:layout_width="@dimen/width_150dp"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/height_150dp"
-        android:layout_margin="@dimen/margin_10dp"
         android:scaleType="centerCrop"
+        android:layout_margin="@dimen/margin_4dp"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintBottom_toTopOf="@+id/view_pager_name_Tv"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +27,7 @@
         android:layout_marginBottom="@dimen/margin_10dp"
         android:gravity="center"
         android:text="@string/name"
+        android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
