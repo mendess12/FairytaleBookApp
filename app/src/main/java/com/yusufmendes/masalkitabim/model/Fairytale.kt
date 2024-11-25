@@ -8,6 +8,7 @@ data class Fairytale
     (
     val name: String? = null,
     val fairytale: String? = null,
-    val imageUrl: String? = null
+    val imageUrl: String? = null,
+    val sound: String? = null
 ) :
     Parcelable
