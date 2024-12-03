@@ -33,7 +33,7 @@ class SplashScreenActivity : AppCompatActivity() {
     private fun loadInterstitialAd() {
         val adRequest = AdRequest.Builder().build()
 
-        InterstitialAd.load(this, "ca-app-pub-5347985551957293/6632703059", adRequest,
+        InterstitialAd.load(this, "ca-app-pub-5347985551957293/7357066716", adRequest,
             object : InterstitialAdLoadCallback() {
                 override fun onAdLoaded(ad: InterstitialAd) {
                     interstitialAd = ad
